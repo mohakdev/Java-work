@@ -17,61 +17,65 @@ public class Rock {
             System.out.println("It's a tie");
             
         }
-        if(player_choice.equals("rock")&&computer_choice.equals("paper"))
+        else if(player_choice.equals("rock")&&computer_choice.equals("paper"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You lose");
             
         }
-        if(player_choice.equals("rock")&&computer_choice.equals("scissors"))
+        else if(player_choice.equals("rock")&&computer_choice.equals("scissors"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You won");
             
         }
-        if(player_choice.equals("paper")&&computer_choice.equals("rock"))
+        else if(player_choice.equals("paper")&&computer_choice.equals("rock"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You won");
             
         }
-        if(player_choice.equals("paper")&&computer_choice.equals("paper"))
+        else if(player_choice.equals("paper")&&computer_choice.equals("paper"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("Its a tie");
             
         }
-        if(player_choice.equals("paper")&&computer_choice.equals("scissors"))
+        else if(player_choice.equals("paper")&&computer_choice.equals("scissors"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You lose");
             
         }
-        if(player_choice.equals("scissors")&&computer_choice.equals("rock"))
+        else if(player_choice.equals("scissors")&&computer_choice.equals("rock"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You lose");
             
         }
-        if(player_choice.equals("scissors")&&computer_choice.equals("paper"))
+        else if(player_choice.equals("scissors")&&computer_choice.equals("paper"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("You won");
             
         }
-        if(player_choice.equals("scissors")&&computer_choice.equals("scissors"))
+        else if(player_choice.equals("scissors")&&computer_choice.equals("scissors"))
         {
             System.out.print("Computer choice -:");
             System.out.println(computer_choice);
             System.out.println("Its a tie");
             
+        }
+        else 
+        {
+            System.out.println("error code :402 No possibility found");
         }
         scan.close();
     }
